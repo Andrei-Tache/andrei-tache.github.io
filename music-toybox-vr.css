@@ -1,0 +1,1271 @@
+.header-header {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 1200px;
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.header-text {
+  color: #bebebe;
+}
+.header-text3 {
+  color: #969696;
+  font-size: 20px;
+}
+.header-separator {
+  width: 100%;
+  height: 1px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  background-color: var(--dl-color-gray-900);
+}
+.header-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.header-navlink {
+  color: #bebebe;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  text-decoration: none;
+}
+.header-navlink:hover {
+  text-decoration: underline;
+}
+.header-link {
+  color: #bebebe;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.header-link:hover {
+  text-decoration: underline;
+}
+.header-navlink1 {
+  color: #bebebe;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.header-navlink1:hover {
+  text-decoration: underline;
+}
+
+
+
+
+@media(max-width: 767px) {
+  .header-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .header-separator {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .header-nav {
+    flex-direction: row;
+  }
+  .header-navlink {
+    margin-bottom: 0px;
+  }
+  .header-link {
+    margin-left: var(--dl-space-space-twounits);
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  .header-navlink1 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-bottom: 0px;
+  }
+}
+@media(max-width: 479px) {
+  .header-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .header-separator {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.footer-container {
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-fourunits);
+  margin-bottom: 192px;
+}
+.footer-text-full {
+  top: 0px;
+  left: 0px;
+  color: rgb(190, 190, 190);
+  right: 0px;
+  width: 400px;
+  bottom: 0px;
+  position: absolute;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-left: -200px;
+  margin-right: auto;
+  margin-bottom: var(--dl-space-space-sixunits);
+}
+.footer-email {
+  top: 0px;
+  left: 0px;
+  color: rgb(190, 190, 190);
+  right: 0px;
+  width: 400px;
+  bottom: 0px;
+  display: none;
+  position: absolute;
+  margin-top: auto;
+  text-align: center;
+  margin-left: -200px;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+.footer-phone {
+  top: 0px;
+  left: 0px;
+  color: rgb(190, 190, 190);
+  right: 0px;
+  width: 400px;
+  bottom: 0px;
+  display: none;
+  position: absolute;
+  margin-top: auto;
+  text-align: center;
+  margin-left: -200px;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+
+
+
+
+@media(max-width: 991px) {
+  .footer-root-class-name3 {
+    margin-top: var(--dl-space-space-twounits);
+    margin-bottom: 192px;
+  }
+}
+@media(max-width: 767px) {
+  .footer-text-full {
+    color: rgb(190, 190, 190);
+  }
+  .footer-email {
+    color: rgb(190, 190, 190);
+  }
+  .footer-phone {
+    color: rgb(190, 190, 190);
+  }
+}
+@media(max-width: 479px) {
+  .footer-text-full {
+    color: rgb(190, 190, 190);
+    display: none;
+    align-self: center;
+    text-align: center;
+  }
+  .footer-email {
+    color: rgb(190, 190, 190);
+    display: flex;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer-phone {
+    top: 40px;
+    color: rgb(190, 190, 190);
+    display: flex;
+    align-self: center;
+    text-align: center;
+    margin-left: -200px;
+    justify-content: center;
+  }
+  .footer-root-class-name3 {
+    margin-top: var(--dl-space-space-fourunits);
+  }
+}
+
+.music-toybox-vr-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #121110;
+}
+.music-toybox-vr-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  max-width: 600px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.music-toybox-vr-image {
+  width: 600px;
+  align-self: center;
+  object-fit: cover;
+}
+.music-toybox-vr-text {
+  color: rgb(190, 190, 190);
+  font-size: 20px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  font-family: "Montserrat";
+  font-weight: 700;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+@media(max-width: 767px) {
+  .music-toybox-vr-text {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text001 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text003 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text004 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text006 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text008 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text009 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text011 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text013 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text014 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text016 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text018 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text020 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text021 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text023 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text024 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text026 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text028 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text029 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text031 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text033 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text034 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text036 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text038 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text040 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text042 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text043 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text045 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text046 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text048 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text050 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text051 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text053 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text055 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text056 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text058 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text060 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text061 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text063 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text065 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text066 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text068 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text070 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text071 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text073 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text075 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text077 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text079 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text081 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text082 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text084 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text086 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text087 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text089 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text090 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text092 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text094 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text095 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text097 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text099 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text100 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text102 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text104 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text105 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text107 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text109 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text111 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text112 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text114 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text116 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text117 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text119 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text121 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text122 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text124 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text126 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text127 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text129 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text131 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text132 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text134 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text136 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text137 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text139 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text141 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text142 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text144 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text146 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text147 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text149 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text151 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text152 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text154 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text156 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text157 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .music-toybox-vr-text159 {
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
+  }
+}
+@media(max-width: 479px) {
+  .music-toybox-vr-text {
+    color: rgb(190, 190, 190);
+    font-size: 20px;
+    font-style: normal;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text001 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text002 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text003 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text004 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text005 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text006 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text007 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text008 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text009 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text010 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text011 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text012 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text013 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text014 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text015 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text016 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text017 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text018 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text019 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text020 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text021 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text022 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text023 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text024 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text025 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text026 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text027 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text028 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text029 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text030 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text031 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text032 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text033 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text034 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text035 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text036 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text037 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text038 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text039 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text040 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text041 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text042 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text043 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text044 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text045 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text046 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text047 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text048 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text049 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text050 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text051 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text052 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text053 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text054 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text055 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text056 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text057 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text058 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text059 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text060 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text061 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text062 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text063 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text064 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text065 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text066 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text067 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text068 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text069 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text070 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text071 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text072 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text073 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text074 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text075 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text076 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text077 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text078 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text079 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text080 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text081 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text082 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text083 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text084 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text085 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text086 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text087 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text088 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text089 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text090 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text091 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text092 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text093 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text094 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text095 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text096 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text097 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text098 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text099 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text100 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text101 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text102 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text103 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text104 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text105 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text106 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text107 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text108 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text109 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text110 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text111 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text112 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text113 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text114 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text115 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text116 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text117 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text118 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text119 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text120 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text121 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text122 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text123 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text124 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text125 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text126 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text127 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text128 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text129 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text130 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text131 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text132 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text133 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text134 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text135 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text136 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text137 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text138 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text139 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text140 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text141 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text142 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text143 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text144 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text145 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text146 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text147 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text148 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text149 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text150 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text151 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text152 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text153 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text154 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text155 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text156 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text157 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-vr-text158 {
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .music-toybox-vr-text159 {
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+  }
+}

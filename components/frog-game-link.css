@@ -1,0 +1,38 @@
+.frog-game-link-gallery-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.frog-game-link-image {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.frog-game-link-text {
+  color: #bebebe;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.frog-game-link-text1 {
+  color: #969696;
+  align-self: flex-start;
+}
+
+@media(max-width: 767px) {
+  .frog-game-link-gallery-card {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .frog-game-link-image {
+    height: 10rem;
+  }
+}
