@@ -1,0 +1,224 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-text1 {
+  margin-left: var(--dl-space-space-twounits);
+}
+
+
+
+
+
+
+
+
+.navigation-links-root-class-name8 {
+  margin-right: 0px;
+}
+
+.navigation-links-root-class-name17 {
+  margin-right: 0px;
+}
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.music-toybox-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.music-toybox-header {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-fourunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.music-toybox-navlink {
+  display: contents;
+}
+.music-toybox-image {
+  height: 2rem;
+  margin-left: 0px;
+  text-decoration: none;
+}
+.music-toybox-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.music-toybox-burger-menu {
+  display: none;
+}
+.music-toybox-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: flex;
+}
+.music-toybox-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.music-toybox-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.music-toybox-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.music-toybox-image1 {
+  height: 2rem;
+}
+.music-toybox-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.music-toybox-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.music-toybox-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.music-toybox-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.music-toybox-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.music-toybox-container2 {
+  flex: 1;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  max-width: 900px;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.music-toybox-image2 {
+  width: 100%;
+  object-fit: cover;
+}
+.music-toybox-text {
+  width: 100%;
+  font-size: 24px;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+}
+.music-toybox-text02 {
+  font-size: 24px;
+}
+.music-toybox-text05 {
+  font-size: 24px;
+}
+.music-toybox-text08 {
+  font-size: 24px;
+}
+.music-toybox-text11 {
+  font-size: 24px;
+}
+.music-toybox-text13 {
+  font-size: 24px;
+}
+.music-toybox-text16 {
+  font-size: 24px;
+}
+.music-toybox-text19 {
+  font-size: 24px;
+}
+.music-toybox-text22 {
+  font-size: 24px;
+}
+.music-toybox-text25 {
+  font-size: 24px;
+}
+.music-toybox-text27 {
+  font-size: 24px;
+}
+.music-toybox-text30 {
+  font-size: 24px;
+}
+.music-toybox-text33 {
+  font-size: 24px;
+}
+.music-toybox-text36 {
+  font-size: 24px;
+}
+.music-toybox-text39 {
+  font-size: 24px;
+}
+.music-toybox-text42 {
+  font-size: 24px;
+}
+.music-toybox-text45 {
+  font-size: 24px;
+}
+.music-toybox-text48 {
+  font-size: 24px;
+}
+@media(max-width: 767px) {
+  .music-toybox-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .music-toybox-nav {
+    display: none;
+  }
+  .music-toybox-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .music-toybox-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .music-toybox-mobile-menu {
+    padding: 16px;
+  }
+}
