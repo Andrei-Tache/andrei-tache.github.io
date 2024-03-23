@@ -10,7 +10,7 @@
   flex-direction: column;
   padding-bottom: 16px;
 }
-.header-navlink {
+.header-link {
   color: #ffffff;
   font-size: 48px;
   font-family: "Montserrat";
@@ -20,7 +20,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.header-navlink1 {
+.header-navlink {
   color: #bebebe;
   font-size: 20px;
   font-family: "Montserrat";
@@ -41,7 +41,7 @@
   align-items: center;
   flex-direction: row;
 }
-.header-navlink2 {
+.header-link1 {
   color: #828282;
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
@@ -49,13 +49,13 @@
   font-weight: 700;
   text-decoration: none;
 }
-.header-navlink2:hover {
+.header-link1:hover {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
   text-decoration: underline;
 }
-.header-navlink3 {
+.header-navlink1 {
   color: #828282;
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
@@ -64,13 +64,13 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.header-navlink3:hover {
+.header-navlink1:hover {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
   text-decoration: underline;
 }
-.header-link {
+.header-link2 {
   color: #828282;
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
@@ -79,7 +79,7 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.header-link:hover {
+.header-link2:hover {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
@@ -101,14 +101,14 @@
   .header-nav {
     flex-direction: row;
   }
-  .header-navlink2 {
+  .header-link1 {
     margin-bottom: 0px;
   }
-  .header-navlink3 {
+  .header-navlink1 {
     margin-left: var(--dl-space-space-twounits);
     margin-bottom: 0px;
   }
-  .header-link {
+  .header-link2 {
     padding: var(--dl-space-space-halfunit);
     margin-left: var(--dl-space-space-twounits);
     margin-bottom: 0px;
@@ -121,12 +121,12 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-unit);
   }
-  .header-navlink {
+  .header-link {
     align-self: flex-start;
     text-align: left;
     padding-left: var(--dl-space-space-oneandhalfunits);
   }
-  .header-navlink1 {
+  .header-navlink {
     align-self: flex-start;
     text-align: left;
     padding-left: var(--dl-space-space-oneandhalfunits);

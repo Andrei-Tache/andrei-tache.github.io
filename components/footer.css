@@ -14,18 +14,20 @@
   fill: #4e4e4e;
   width: 26px;
   height: 26px;
-  margin-top: 16px;
+  margin: var(--dl-space-space-oneandhalfunits);
   transition: 0.3s;
-  margin-left: 16px;
-  margin-right: 16px;
-  margin-bottom: 16px;
   text-decoration: none;
 }
 .footer-icon:hover {
   fill: var(--dl-color-gray-white);
+  width: 28px;
+  height: 28px;
   transform: scale(1.02);
 }
 .footer-icon:active {
+  fill: #ffffff;
+  width: 28px;
+  height: 28px;
   transform: scale(1.03);
 }
 
