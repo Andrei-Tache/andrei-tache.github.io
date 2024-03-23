@@ -1,9 +1,14 @@
 .frog-game-link-gallery-card {
   width: 100%;
   display: flex;
+  transition: 0.3s;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-color: rgba(255, 255, 255, 0);
+}
+.frog-game-link-gallery-card:hover {
+  background-color: rgba(255, 255, 255, 0.15);
 }
 .frog-game-link-image {
   width: 100%;
@@ -19,11 +24,15 @@
   font-style: normal;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 700;
+  margin-left: var(--dl-space-space-halfunit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
 .frog-game-link-text1 {
   color: #969696;
   align-self: flex-start;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  margin-bottom: 16px;
 }
 
 @media(max-width: 767px) {

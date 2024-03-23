@@ -1,9 +1,19 @@
 .rivaria-link-gallery-card {
   width: 100%;
   display: flex;
+  transition: 0.3s;
   align-items: center;
+  border-radius: 20px;
   flex-direction: column;
   justify-content: center;
+  background-color: rgba(255, 255, 255, 0);
+}
+.rivaria-link-gallery-card:hover {
+  transform: scale(1.025);
+  background-color: rgba(255, 255, 255, 0.13);
+}
+.rivaria-link-gallery-card:active {
+  transform: scale(1.04);
 }
 .rivaria-link-image {
   width: 100%;
@@ -11,19 +21,25 @@
   align-self: center;
   object-fit: cover;
   transition: 0.3s;
+  border-radius: 16px;
 }
 
 .rivaria-link-text {
-  color: #bebebe;
+  color: #ffffff;
   align-self: flex-start;
   font-style: normal;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 700;
-  margin-bottom: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  margin-bottom: 4px;
 }
 .rivaria-link-text1 {
-  color: #969696;
+  color: #828282;
   align-self: flex-start;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  margin-bottom: 16px;
 }
 
 @media(max-width: 767px) {
