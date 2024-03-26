@@ -10,20 +10,20 @@
   flex-direction: column;
   padding-bottom: 16px;
 }
-.header-link {
-  color: #ffffff;
+.header-navlink {
+  color: rgb(255, 255, 255);
   font-size: 48px;
-  font-family: "Montserrat";
+  font-family: "montserrat";
   font-weight: 600;
   line-height: 1.15;
   padding-bottom: 2px;
   text-transform: none;
   text-decoration: none;
 }
-.header-navlink {
+.header-navlink1 {
   color: #bebebe;
   font-size: 20px;
-  font-family: "Montserrat";
+  font-family: "Montserrat-400";
   text-decoration: none;
 }
 .header-separator {
@@ -41,45 +41,48 @@
   align-items: center;
   flex-direction: row;
 }
-.header-link1 {
+.header-navlink2 {
   color: #828282;
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
   transition: 0.3s;
+  font-family: "Montserrat-700";
   font-weight: 700;
   text-decoration: none;
 }
-.header-link1:hover {
+.header-navlink2:hover {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
   text-decoration: underline;
 }
-.header-navlink1 {
+.header-navlink3 {
   color: #828282;
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
   transition: 0.3s;
+  font-family: "Montserrat-700";
   font-weight: 700;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.header-navlink1:hover {
+.header-navlink3:hover {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
   text-decoration: underline;
 }
-.header-link2 {
+.header-link {
   color: #828282;
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
   transition: 0.3s;
+  font-family: "Montserrat-700";
   font-weight: 700;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.header-link2:hover {
+.header-link:hover {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
@@ -101,14 +104,14 @@
   .header-nav {
     flex-direction: row;
   }
-  .header-link1 {
+  .header-navlink2 {
     margin-bottom: 0px;
   }
-  .header-navlink1 {
+  .header-navlink3 {
     margin-left: var(--dl-space-space-twounits);
     margin-bottom: 0px;
   }
-  .header-link2 {
+  .header-link {
     padding: var(--dl-space-space-halfunit);
     margin-left: var(--dl-space-space-twounits);
     margin-bottom: 0px;
@@ -121,12 +124,12 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-unit);
   }
-  .header-link {
+  .header-navlink {
     align-self: flex-start;
     text-align: left;
     padding-left: var(--dl-space-space-oneandhalfunits);
   }
-  .header-navlink {
+  .header-navlink1 {
     align-self: flex-start;
     text-align: left;
     padding-left: var(--dl-space-space-oneandhalfunits);

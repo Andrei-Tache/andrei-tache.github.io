@@ -1,4 +1,4 @@
-.not-found-container {
+.page-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,30 +6,35 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-color: #1a1917;
 }
-.not-found-container1 {
-  display: flex;
-  position: relative;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+.page-text {
+  color: rgb(255, 255, 255);
+  font-size: 192px;
+  align-self: center;
+  font-family: "Montserrat-700";
+  font-weight: 700;
 }
-.not-found-text1 {
-  color: rgb(38, 38, 38);
-  font-size: 252px;
-  margin-top: -20px;
-  font-weight: 900;
-  margin-bottom: -20px;
-  letter-spacing: -20px;
-}
-.not-found-container2 {
-  width: 421px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.not-found-text2 {
-  text-align: center;
+.page-text1 {
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  align-self: center;
+  font-style: normal;
+  font-family: "Montserrat-400";
   font-weight: 400;
+}
+.page-navlink {
+  color: #828282;
+  font-size: 24px;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-sixunits);
+  transition: 0.3s;
+  font-family: "Montserrat-400";
+  font-weight: 400;
+  text-decoration: none;
+}
+.page-navlink:hover {
+  color: #ffffff;
+  transform: scale(1.04);
 }

@@ -11,9 +11,9 @@
   padding-bottom: 16px;
 }
 .header-navlink {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-size: 48px;
-  font-family: "Montserrat";
+  font-family: "montserrat";
   font-weight: 600;
   line-height: 1.15;
   padding-bottom: 2px;
@@ -23,7 +23,7 @@
 .header-navlink1 {
   color: #bebebe;
   font-size: 20px;
-  font-family: "Montserrat";
+  font-family: "Montserrat-400";
   text-decoration: none;
 }
 .header-separator {
@@ -46,6 +46,7 @@
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
   transition: 0.3s;
+  font-family: "Montserrat-700";
   font-weight: 700;
   text-decoration: none;
 }
@@ -60,6 +61,7 @@
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
   transition: 0.3s;
+  font-family: "Montserrat-700";
   font-weight: 700;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
@@ -75,6 +77,7 @@
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
   transition: 0.3s;
+  font-family: "Montserrat-700";
   font-weight: 700;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
@@ -150,7 +153,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #121110;
+  background-color: #1a1917;
 }
 .about-me-container1 {
   flex: 0 0 auto;
@@ -159,8 +162,7 @@
   max-width: 680px;
   align-self: center;
   align-items: center;
-  padding-top: var(--dl-space-space-twounits);
-  padding-bottom: var(--dl-space-space-sixunits);
+  padding-top: var(--dl-space-space-unit);
   justify-content: center;
 }
 .about-me-image {
@@ -168,6 +170,7 @@
   height: 240px;
   align-self: flex-start;
   object-fit: cover;
+  margin-left: var(--dl-space-space-oneandhalfunits);
   border-radius: 16px;
 }
 .about-me-text {
@@ -175,47 +178,76 @@
   width: 100%;
   align-self: center;
   text-align: justify;
-  font-family: "Montserrat";
+  font-family: "Montserrat-500";
   font-weight: 500;
   padding-left: var(--dl-space-space-oneandhalfunits);
   padding-right: var(--dl-space-space-oneandhalfunits);
 }
 .about-me-text01 {
   font-style: normal;
+  font-family: "Montserrat-600";
+}
+.about-me-text02 {
+  font-family: "Montserrat-600";
+}
+.about-me-text03 {
+  font-family: "Montserrat-600";
+}
+.about-me-text04 {
+  font-family: "Montserrat-600";
 }
 .about-me-text05 {
   color: #ffffff;
   font-style: normal;
+  font-family: "Montserrat-900";
   font-weight: 700;
+}
+.about-me-text06 {
+  font-family: "Montserrat-600";
 }
 .about-me-text07 {
   color: #ffffff;
   font-style: normal;
+  font-family: "Montserrat-900";
+  font-weight: 700;
+}
+.about-me-text08 {
+  color: #bebebe;
+  font-style: normal;
+  font-family: "Montserrat-600";
   font-weight: 700;
 }
 .about-me-text09 {
-  font-style: normal;
-  font-family: "Montserrat";
+  font-family: "Montserrat-600";
 }
 .about-me-text10 {
   font-style: normal;
+  font-family: "Montserrat-600";
 }
 .about-me-text11 {
   font-style: normal;
+  font-family: "Montserrat-600";
 }
 .about-me-text12 {
   font-style: normal;
-  font-family: "Montserrat";
+  font-family: "Montserrat-600";
 }
 .about-me-text13 {
   font-style: normal;
-  font-family: "Montserrat";
+  font-family: "Montserrat-600";
+}
+.about-me-text14 {
+  font-style: normal;
+  font-family: "Montserrat-600";
 }
 .about-me-text15 {
+  font-family: "Montserrat-600";
+}
+.about-me-text16 {
   font-style: normal;
   font-family: "Montserrat";
 }
-.about-me-text16 {
+.about-me-text17 {
   font-style: normal;
 }
 @media(max-width: 991px) {
@@ -226,12 +258,15 @@
 @media(max-width: 767px) {
   .about-me-container1 {
     flex-direction: column;
+    padding-bottom: 224px;
   }
   .about-me-image {
     align-self: center;
+    margin-left: 0px;
   }
   .about-me-text {
     height: auto;
+    font-size: 18px;
     max-width: 390px;
     align-self: center;
     text-align: justify;
@@ -242,5 +277,11 @@
 @media(max-width: 479px) {
   .about-me-container1 {
     flex-direction: column;
+  }
+  .about-me-image {
+    margin-left: 0px;
+  }
+  .about-me-text {
+    font-size: 18px;
   }
 }

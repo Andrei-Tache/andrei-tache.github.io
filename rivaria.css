@@ -10,20 +10,20 @@
   flex-direction: column;
   padding-bottom: 16px;
 }
-.header-link {
-  color: #ffffff;
+.header-navlink {
+  color: rgb(255, 255, 255);
   font-size: 48px;
-  font-family: "Montserrat";
+  font-family: "montserrat";
   font-weight: 600;
   line-height: 1.15;
   padding-bottom: 2px;
   text-transform: none;
   text-decoration: none;
 }
-.header-navlink {
+.header-navlink1 {
   color: #bebebe;
   font-size: 20px;
-  font-family: "Montserrat";
+  font-family: "Montserrat-400";
   text-decoration: none;
 }
 .header-separator {
@@ -41,45 +41,48 @@
   align-items: center;
   flex-direction: row;
 }
-.header-link1 {
+.header-navlink2 {
   color: #828282;
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
   transition: 0.3s;
+  font-family: "Montserrat-700";
   font-weight: 700;
   text-decoration: none;
 }
-.header-link1:hover {
+.header-navlink2:hover {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
   text-decoration: underline;
 }
-.header-navlink1 {
+.header-navlink3 {
   color: #828282;
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
   transition: 0.3s;
+  font-family: "Montserrat-700";
   font-weight: 700;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.header-navlink1:hover {
+.header-navlink3:hover {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
   text-decoration: underline;
 }
-.header-link2 {
+.header-link {
   color: #828282;
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
   transition: 0.3s;
+  font-family: "Montserrat-700";
   font-weight: 700;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.header-link2:hover {
+.header-link:hover {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
@@ -101,14 +104,14 @@
   .header-nav {
     flex-direction: row;
   }
-  .header-link1 {
+  .header-navlink2 {
     margin-bottom: 0px;
   }
-  .header-navlink1 {
+  .header-navlink3 {
     margin-left: var(--dl-space-space-twounits);
     margin-bottom: 0px;
   }
-  .header-link2 {
+  .header-link {
     padding: var(--dl-space-space-halfunit);
     margin-left: var(--dl-space-space-twounits);
     margin-bottom: 0px;
@@ -121,12 +124,12 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-unit);
   }
-  .header-link {
+  .header-navlink {
     align-self: flex-start;
     text-align: left;
     padding-left: var(--dl-space-space-oneandhalfunits);
   }
-  .header-navlink {
+  .header-navlink1 {
     align-self: flex-start;
     text-align: left;
     padding-left: var(--dl-space-space-oneandhalfunits);
@@ -149,6 +152,7 @@
   display: flex;
   position: relative;
   align-items: center;
+  margin-bottom: 40px;
   justify-content: center;
 }
 .footer-link {
@@ -159,20 +163,14 @@
   width: 26px;
   height: 26px;
   margin: var(--dl-space-space-oneandhalfunits);
-  transition: 0.3s;
+  transition: 0.2s;
   text-decoration: none;
 }
 .footer-icon:hover {
-  fill: var(--dl-color-gray-white);
-  width: 28px;
-  height: 28px;
-  transform: scale(1.02);
-}
-.footer-icon:active {
   fill: #ffffff;
-  width: 28px;
-  height: 28px;
-  transform: scale(1.03);
+  width: 26px;
+  height: 26px;
+  transform: scale(1.02);
 }
 
 
@@ -184,7 +182,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  background-color: #121110;
+  background-color: #1a1917;
 }
 .rivaria-container1 {
   flex: 0 0 auto;
@@ -192,21 +190,30 @@
   display: flex;
   max-width: 600px;
   align-items: center;
-  padding-top: var(--dl-space-space-twounits);
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
-  padding-bottom: 224px;
+  padding-bottom: 32px;
   justify-content: center;
 }
-.rivaria-image {
-  width: 600px;
-  align-self: center;
-  object-fit: cover;
+.rivaria-video {
+  width: 100%;
+  height: auto;
+  border-radius: 36px;
 }
 .rivaria-text {
   color: rgb(190, 190, 190);
-  font-size: 20px;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-twounits);
+  width: 100%;
+  font-size: 18px;
+  align-self: flex-start;
+  font-family: "Montserrat-600";
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: 128px;
+}
+.rivaria-text1 {
+  color: #f2f2f2;
+  font-family: "Montserrat-900";
 }

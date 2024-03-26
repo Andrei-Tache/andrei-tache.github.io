@@ -10,20 +10,20 @@
   flex-direction: column;
   padding-bottom: 16px;
 }
-.header-link {
-  color: #ffffff;
+.header-navlink {
+  color: rgb(255, 255, 255);
   font-size: 48px;
-  font-family: "Montserrat";
+  font-family: "montserrat";
   font-weight: 600;
   line-height: 1.15;
   padding-bottom: 2px;
   text-transform: none;
   text-decoration: none;
 }
-.header-navlink {
+.header-navlink1 {
   color: #bebebe;
   font-size: 20px;
-  font-family: "Montserrat";
+  font-family: "Montserrat-400";
   text-decoration: none;
 }
 .header-separator {
@@ -41,45 +41,48 @@
   align-items: center;
   flex-direction: row;
 }
-.header-link1 {
+.header-navlink2 {
   color: #828282;
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
   transition: 0.3s;
+  font-family: "Montserrat-700";
   font-weight: 700;
   text-decoration: none;
 }
-.header-link1:hover {
+.header-navlink2:hover {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
   text-decoration: underline;
 }
-.header-navlink1 {
+.header-navlink3 {
   color: #828282;
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
   transition: 0.3s;
+  font-family: "Montserrat-700";
   font-weight: 700;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.header-navlink1:hover {
+.header-navlink3:hover {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
   text-decoration: underline;
 }
-.header-link2 {
+.header-link {
   color: #828282;
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
   transition: 0.3s;
+  font-family: "Montserrat-700";
   font-weight: 700;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.header-link2:hover {
+.header-link:hover {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
@@ -101,14 +104,14 @@
   .header-nav {
     flex-direction: row;
   }
-  .header-link1 {
+  .header-navlink2 {
     margin-bottom: 0px;
   }
-  .header-navlink1 {
+  .header-navlink3 {
     margin-left: var(--dl-space-space-twounits);
     margin-bottom: 0px;
   }
-  .header-link2 {
+  .header-link {
     padding: var(--dl-space-space-halfunit);
     margin-left: var(--dl-space-space-twounits);
     margin-bottom: 0px;
@@ -121,12 +124,12 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-unit);
   }
-  .header-link {
+  .header-navlink {
     align-self: flex-start;
     text-align: left;
     padding-left: var(--dl-space-space-oneandhalfunits);
   }
-  .header-navlink {
+  .header-navlink1 {
     align-self: flex-start;
     text-align: left;
     padding-left: var(--dl-space-space-oneandhalfunits);
@@ -145,9 +148,12 @@
 .toybox-link-gallery-card {
   width: 100%;
   display: flex;
+  overflow: hidden;
+  margin-top: var(--dl-space-space-unit);
   transition: 0.3s;
   align-items: center;
   border-radius: 20px;
+  margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0);
@@ -159,26 +165,27 @@
 .toybox-link-gallery-card:active {
   transform: scale(1.04);
 }
-.toybox-link-image {
+.toybox-link-video {
   width: 100%;
-  height: 100%;
+  height: auto;
   align-self: center;
-  object-fit: cover;
-  border-radius: 16px;
+  border-radius: 20px;
 }
 .toybox-link-text {
   color: #ffffff;
   align-self: flex-start;
   font-style: normal;
   margin-top: var(--dl-space-space-halfunit);
+  font-family: "Montserrat-700";
   font-weight: 700;
   margin-left: var(--dl-space-space-halfunit);
   margin-right: var(--dl-space-space-halfunit);
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 .toybox-link-text1 {
   color: #828282;
   align-self: flex-start;
+  font-family: "Montserrat-700";
   margin-left: var(--dl-space-space-halfunit);
   margin-right: var(--dl-space-space-halfunit);
   margin-bottom: 16px;
@@ -191,18 +198,15 @@
     flex-direction: column;
   }
 }
-@media(max-width: 479px) {
-  .toybox-link-image {
-    height: 10rem;
-  }
-}
 
 .rivaria-link-gallery-card {
   width: 100%;
   display: flex;
+  margin-top: var(--dl-space-space-unit);
   transition: 0.3s;
   align-items: center;
   border-radius: 20px;
+  margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0);
@@ -214,28 +218,27 @@
 .rivaria-link-gallery-card:active {
   transform: scale(1.04);
 }
-.rivaria-link-image {
+.rivaria-link-video {
   width: 100%;
-  height: 100%;
+  height: auto;
   align-self: center;
-  object-fit: cover;
-  transition: 0.3s;
-  border-radius: 16px;
+  border-radius: 20px;
 }
-
 .rivaria-link-text {
   color: #ffffff;
   align-self: flex-start;
   font-style: normal;
   margin-top: var(--dl-space-space-halfunit);
+  font-family: "Montserrat-700";
   font-weight: 700;
   margin-left: var(--dl-space-space-halfunit);
   margin-right: var(--dl-space-space-halfunit);
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 .rivaria-link-text1 {
   color: #828282;
   align-self: flex-start;
+  font-family: "Montserrat-700";
   margin-left: var(--dl-space-space-halfunit);
   margin-right: var(--dl-space-space-halfunit);
   margin-bottom: 16px;
@@ -246,18 +249,15 @@
     flex-direction: column;
   }
 }
-@media(max-width: 479px) {
-  .rivaria-link-image {
-    height: 10rem;
-  }
-}
 
 .red-link-gallery-card {
   width: 100%;
   display: flex;
+  margin-top: var(--dl-space-space-unit);
   transition: 0.3s;
   align-items: center;
   border-radius: 20px;
+  margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0);
@@ -269,27 +269,26 @@
 .red-link-gallery-card:active {
   transform: scale(1.04);
 }
-.red-link-image {
+.red-link-video {
   width: 100%;
-  height: 100%;
+  height: auto;
   align-self: center;
-  object-fit: cover;
-  transition: 0.3s;
-  border-radius: 16px;
+  border-radius: 20px;
 }
-
 .red-link-text {
   color: #ffffff;
   align-self: flex-start;
   font-style: normal;
   margin-top: var(--dl-space-space-halfunit);
+  font-family: "Montserrat-700";
   font-weight: 700;
   margin-left: var(--dl-space-space-halfunit);
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 .red-link-text1 {
   color: #828282;
   align-self: flex-start;
+  font-family: "Montserrat-700";
   margin-left: var(--dl-space-space-halfunit);
   margin-right: var(--dl-space-space-halfunit);
   margin-bottom: 16px;
@@ -298,11 +297,6 @@
 @media(max-width: 767px) {
   .red-link-gallery-card {
     flex-direction: column;
-  }
-}
-@media(max-width: 479px) {
-  .red-link-image {
-    height: 10rem;
   }
 }
 
@@ -314,7 +308,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #121110;
+  background-color: #1a1917;
 }
 .home-gallery {
   width: 100%;
@@ -322,11 +316,10 @@
   grid-gap: var(--dl-space-space-unit);
   position: relative;
   max-width: 1200px;
-  padding-top: var(--dl-space-space-halfunit);
   padding-left: var(--dl-space-space-threeunits);
   margin-bottom: 0px;
   padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-unit);
   grid-template-columns: 1fr 1fr 1fr;
 }
 .home-music-toybox-vr {
@@ -340,20 +333,27 @@
 }
 @media(max-width: 991px) {
   .home-gallery {
-    grid-template-columns: 1fr 1fr;
+    display: grid;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 @media(max-width: 767px) {
   .home-gallery {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+    display: grid;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+    padding-bottom: 160px;
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media(max-width: 479px) {
   .home-gallery {
+    display: block;
     padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: 160px;
   }
 }

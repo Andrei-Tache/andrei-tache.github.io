@@ -10,20 +10,20 @@
   flex-direction: column;
   padding-bottom: 16px;
 }
-.header-link {
-  color: #ffffff;
+.header-navlink {
+  color: rgb(255, 255, 255);
   font-size: 48px;
-  font-family: "Montserrat";
+  font-family: "montserrat";
   font-weight: 600;
   line-height: 1.15;
   padding-bottom: 2px;
   text-transform: none;
   text-decoration: none;
 }
-.header-navlink {
+.header-navlink1 {
   color: #bebebe;
   font-size: 20px;
-  font-family: "Montserrat";
+  font-family: "Montserrat-400";
   text-decoration: none;
 }
 .header-separator {
@@ -41,45 +41,48 @@
   align-items: center;
   flex-direction: row;
 }
-.header-link1 {
+.header-navlink2 {
   color: #828282;
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
   transition: 0.3s;
+  font-family: "Montserrat-700";
   font-weight: 700;
   text-decoration: none;
 }
-.header-link1:hover {
+.header-navlink2:hover {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
   text-decoration: underline;
 }
-.header-navlink1 {
+.header-navlink3 {
   color: #828282;
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
   transition: 0.3s;
+  font-family: "Montserrat-700";
   font-weight: 700;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.header-navlink1:hover {
+.header-navlink3:hover {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
   text-decoration: underline;
 }
-.header-link2 {
+.header-link {
   color: #828282;
   padding: var(--dl-space-space-halfunit);
   font-style: normal;
   transition: 0.3s;
+  font-family: "Montserrat-700";
   font-weight: 700;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.header-link2:hover {
+.header-link:hover {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
@@ -101,14 +104,14 @@
   .header-nav {
     flex-direction: row;
   }
-  .header-link1 {
+  .header-navlink2 {
     margin-bottom: 0px;
   }
-  .header-navlink1 {
+  .header-navlink3 {
     margin-left: var(--dl-space-space-twounits);
     margin-bottom: 0px;
   }
-  .header-link2 {
+  .header-link {
     padding: var(--dl-space-space-halfunit);
     margin-left: var(--dl-space-space-twounits);
     margin-bottom: 0px;
@@ -121,12 +124,12 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-unit);
   }
-  .header-link {
+  .header-navlink {
     align-self: flex-start;
     text-align: left;
     padding-left: var(--dl-space-space-oneandhalfunits);
   }
-  .header-navlink {
+  .header-navlink1 {
     align-self: flex-start;
     text-align: left;
     padding-left: var(--dl-space-space-oneandhalfunits);
@@ -149,6 +152,7 @@
   display: flex;
   position: relative;
   align-items: center;
+  margin-bottom: 40px;
   justify-content: center;
 }
 .footer-link {
@@ -159,20 +163,14 @@
   width: 26px;
   height: 26px;
   margin: var(--dl-space-space-oneandhalfunits);
-  transition: 0.3s;
+  transition: 0.2s;
   text-decoration: none;
 }
 .footer-icon:hover {
-  fill: var(--dl-color-gray-white);
-  width: 28px;
-  height: 28px;
-  transform: scale(1.02);
-}
-.footer-icon:active {
   fill: #ffffff;
-  width: 28px;
-  height: 28px;
-  transform: scale(1.03);
+  width: 26px;
+  height: 26px;
+  transform: scale(1.02);
 }
 
 
@@ -184,7 +182,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  background-color: #121110;
+  background-color: #1a1917;
 }
 .music-toybox-vr-container1 {
   flex: 0 0 auto;
@@ -192,1537 +190,227 @@
   display: flex;
   max-width: 648px;
   align-items: center;
-  padding-top: var(--dl-space-space-twounits);
+  padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-oneandhalfunits);
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
-  padding-bottom: 224px;
+  padding-bottom: 32px;
   justify-content: flex-start;
 }
-.music-toybox-vr-container2 {
-  flex: 1;
+.music-toybox-vr-video {
   width: 100%;
   height: auto;
-  max-height: 338px;
-}
-.music-toybox-vr-container3 {
-  display: contents;
+  border-radius: 36px;
 }
 .music-toybox-vr-text {
   color: rgb(190, 190, 190);
-  font-size: 20px;
-  margin-top: var(--dl-space-space-oneandhalfunits);
-  font-family: "Montserrat";
+  width: 100%;
+  font-size: 18px;
+  align-self: flex-start;
+  font-family: "Montserrat-600";
   font-weight: 600;
-  margin-bottom: var(--dl-space-space-twounits);
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: 128px;
 }
-.music-toybox-vr-text001 {
+.music-toybox-vr-text01 {
+  color: #f2f2f2;
+  font-style: normal;
+  font-family: "Montserrat-900";
   font-weight: 900;
 }
-.music-toybox-vr-text002 {
-  font-style: normal;
-}
-.music-toybox-vr-text003 {
-  font-style: normal;
-}
-.music-toybox-vr-text004 {
-  font-style: normal;
-}
-.music-toybox-vr-text005 {
-  font-style: normal;
-}
-.music-toybox-vr-text006 {
-  font-style: normal;
-}
-.music-toybox-vr-text007 {
-  font-style: normal;
-}
-.music-toybox-vr-text008 {
-  font-style: normal;
-}
-.music-toybox-vr-text009 {
-  font-style: normal;
-}
-.music-toybox-vr-text010 {
-  font-style: normal;
-}
-.music-toybox-vr-text011 {
-  font-style: normal;
-}
-.music-toybox-vr-text012 {
-  font-style: normal;
-}
-.music-toybox-vr-text013 {
-  font-style: normal;
-}
-.music-toybox-vr-text014 {
-  font-style: normal;
-}
-.music-toybox-vr-text015 {
-  font-style: normal;
-}
-.music-toybox-vr-text016 {
-  font-style: normal;
-}
-.music-toybox-vr-text017 {
-  font-style: normal;
-}
-.music-toybox-vr-text018 {
-  font-style: normal;
-}
-.music-toybox-vr-text019 {
-  font-style: normal;
-}
-.music-toybox-vr-text020 {
-  font-style: normal;
-}
-.music-toybox-vr-text021 {
-  font-style: normal;
-}
-.music-toybox-vr-text022 {
-  font-style: normal;
-}
-.music-toybox-vr-text023 {
-  font-style: normal;
-}
-.music-toybox-vr-text024 {
-  font-style: normal;
-}
-.music-toybox-vr-text025 {
-  font-style: normal;
-}
-.music-toybox-vr-text026 {
-  font-style: normal;
-}
-.music-toybox-vr-text027 {
-  font-style: normal;
-}
-.music-toybox-vr-text028 {
-  font-style: normal;
-}
-.music-toybox-vr-text029 {
-  font-style: normal;
-}
-.music-toybox-vr-text030 {
-  font-style: normal;
-}
-.music-toybox-vr-text031 {
-  font-style: normal;
-}
-.music-toybox-vr-text032 {
-  font-style: normal;
-}
-.music-toybox-vr-text033 {
-  font-style: normal;
-}
-.music-toybox-vr-text034 {
-  font-style: normal;
-}
-.music-toybox-vr-text035 {
-  font-style: normal;
-}
-.music-toybox-vr-text036 {
-  font-style: normal;
-}
-.music-toybox-vr-text037 {
-  font-style: normal;
-}
-.music-toybox-vr-text038 {
-  font-style: normal;
-}
-.music-toybox-vr-text039 {
-  font-style: normal;
-}
-.music-toybox-vr-text040 {
-  font-style: normal;
-}
-.music-toybox-vr-text041 {
-  font-style: normal;
-}
-.music-toybox-vr-text042 {
-  font-style: normal;
-}
-.music-toybox-vr-text043 {
-  font-style: normal;
-}
-.music-toybox-vr-text044 {
-  font-style: normal;
-}
-.music-toybox-vr-text045 {
-  font-style: normal;
-}
-.music-toybox-vr-text046 {
-  font-style: normal;
-}
-.music-toybox-vr-text047 {
-  font-style: normal;
-}
-.music-toybox-vr-text048 {
-  font-style: normal;
-}
-.music-toybox-vr-text049 {
-  font-style: normal;
-}
-.music-toybox-vr-text050 {
-  font-style: normal;
-}
-.music-toybox-vr-text051 {
-  font-style: normal;
-}
-.music-toybox-vr-text052 {
-  font-style: normal;
-}
-.music-toybox-vr-text053 {
-  font-style: normal;
-}
-.music-toybox-vr-text054 {
-  font-style: normal;
-}
-.music-toybox-vr-text055 {
-  font-style: normal;
-}
-.music-toybox-vr-text056 {
-  font-style: normal;
-}
-.music-toybox-vr-text057 {
-  font-style: normal;
-}
-.music-toybox-vr-text058 {
-  font-style: normal;
-}
-.music-toybox-vr-text059 {
-  font-style: normal;
-}
-.music-toybox-vr-text060 {
-  font-style: normal;
-}
-.music-toybox-vr-text061 {
-  font-style: normal;
-}
-.music-toybox-vr-text062 {
-  font-style: normal;
-}
-.music-toybox-vr-text063 {
-  font-style: normal;
-}
-.music-toybox-vr-text064 {
-  font-style: normal;
-}
-.music-toybox-vr-text065 {
-  font-style: normal;
-}
-.music-toybox-vr-text066 {
-  font-style: normal;
-}
-.music-toybox-vr-text067 {
-  font-style: normal;
-}
-.music-toybox-vr-text068 {
-  font-style: normal;
-}
-.music-toybox-vr-text069 {
-  font-style: normal;
-}
-.music-toybox-vr-text070 {
-  font-style: normal;
-}
-.music-toybox-vr-text071 {
-  font-style: normal;
-}
-.music-toybox-vr-text072 {
-  font-style: normal;
-}
-.music-toybox-vr-text073 {
-  font-style: normal;
-}
-.music-toybox-vr-text074 {
-  font-style: normal;
-}
-.music-toybox-vr-text075 {
-  font-style: normal;
-}
-.music-toybox-vr-text076 {
-  font-style: normal;
-}
-.music-toybox-vr-text077 {
-  font-style: normal;
-}
-.music-toybox-vr-text078 {
-  font-style: normal;
-}
-.music-toybox-vr-text079 {
-  font-style: normal;
-}
-.music-toybox-vr-text080 {
-  font-style: normal;
-}
-.music-toybox-vr-text081 {
-  font-style: normal;
-}
-.music-toybox-vr-text082 {
-  font-style: normal;
-}
-.music-toybox-vr-text083 {
-  font-style: normal;
-}
-.music-toybox-vr-text084 {
-  font-style: normal;
-}
-.music-toybox-vr-text085 {
-  font-style: normal;
-}
-.music-toybox-vr-text086 {
-  font-style: normal;
-}
-.music-toybox-vr-text087 {
-  font-style: normal;
-}
-.music-toybox-vr-text088 {
-  font-style: normal;
-}
-.music-toybox-vr-text089 {
-  font-style: normal;
-}
-.music-toybox-vr-text090 {
-  font-style: normal;
-}
-.music-toybox-vr-text091 {
-  font-style: normal;
-}
-.music-toybox-vr-text092 {
-  font-style: normal;
-}
-.music-toybox-vr-text093 {
-  font-style: normal;
-}
-.music-toybox-vr-text094 {
-  font-style: normal;
-}
-.music-toybox-vr-text095 {
-  font-style: normal;
-}
-.music-toybox-vr-text096 {
-  font-style: normal;
-}
-.music-toybox-vr-text097 {
-  font-style: normal;
-}
-.music-toybox-vr-text098 {
-  font-style: normal;
-}
-.music-toybox-vr-text099 {
-  font-style: normal;
-}
-.music-toybox-vr-text100 {
-  font-style: normal;
-}
-.music-toybox-vr-text101 {
-  font-style: normal;
-}
-.music-toybox-vr-text102 {
-  font-style: normal;
-}
-.music-toybox-vr-text103 {
-  font-style: normal;
-}
-.music-toybox-vr-text104 {
-  font-style: normal;
-}
-.music-toybox-vr-text105 {
-  font-style: normal;
-}
-.music-toybox-vr-text106 {
-  font-style: normal;
-}
-.music-toybox-vr-text107 {
-  font-style: normal;
-}
-.music-toybox-vr-text108 {
-  font-style: normal;
+.music-toybox-vr-text02 {
+  font-weight: 900;
 }
-.music-toybox-vr-text109 {
-  font-style: normal;
-}
-.music-toybox-vr-text110 {
-  font-style: normal;
-}
-.music-toybox-vr-text111 {
-  font-style: normal;
-}
-.music-toybox-vr-text112 {
-  font-style: normal;
-}
-.music-toybox-vr-text113 {
-  font-style: normal;
-}
-.music-toybox-vr-text114 {
-  font-style: normal;
-}
-.music-toybox-vr-text115 {
-  font-style: normal;
-}
-.music-toybox-vr-text116 {
-  font-style: normal;
-}
-.music-toybox-vr-text117 {
-  font-style: normal;
-}
-.music-toybox-vr-text118 {
-  font-style: normal;
-}
-.music-toybox-vr-text119 {
-  font-style: normal;
-}
-.music-toybox-vr-text120 {
-  font-style: normal;
-}
-.music-toybox-vr-text121 {
-  font-style: normal;
-}
-.music-toybox-vr-text122 {
-  font-style: normal;
-}
-.music-toybox-vr-text123 {
-  font-style: normal;
-}
-.music-toybox-vr-text124 {
-  font-style: normal;
-}
-.music-toybox-vr-text125 {
-  font-style: normal;
-}
-.music-toybox-vr-text126 {
-  font-style: normal;
+.music-toybox-vr-text04 {
+  font-weight: 900;
 }
-.music-toybox-vr-text127 {
-  font-style: normal;
-}
-.music-toybox-vr-text128 {
-  font-style: normal;
-}
-.music-toybox-vr-text129 {
-  font-style: normal;
-}
-.music-toybox-vr-text130 {
-  font-style: normal;
-}
-.music-toybox-vr-text131 {
-  font-style: normal;
-}
-.music-toybox-vr-text132 {
-  font-style: normal;
-}
-.music-toybox-vr-text133 {
-  font-style: normal;
-}
-.music-toybox-vr-text134 {
-  font-style: normal;
-}
-.music-toybox-vr-text135 {
-  font-style: normal;
-}
-.music-toybox-vr-text136 {
-  font-style: normal;
-}
-.music-toybox-vr-text137 {
-  font-style: normal;
+.music-toybox-vr-text05 {
+  font-weight: 900;
 }
-.music-toybox-vr-text138 {
-  font-style: normal;
+.music-toybox-vr-text07 {
+  font-weight: 900;
 }
-.music-toybox-vr-text139 {
-  font-style: normal;
+.music-toybox-vr-text08 {
+  font-weight: 900;
 }
-.music-toybox-vr-text140 {
-  font-style: normal;
+.music-toybox-vr-text10 {
+  color: #bebebe;
+  font-family: "Montserrat";
+  font-weight: 600;
 }
-.music-toybox-vr-text141 {
-  font-style: normal;
+.music-toybox-vr-text11 {
+  font-weight: 900;
 }
-.music-toybox-vr-text142 {
-  font-style: normal;
+.music-toybox-vr-text12 {
+  font-weight: 900;
 }
-.music-toybox-vr-text143 {
+.music-toybox-vr-text13 {
+  color: #f2f2f2;
   font-style: normal;
+  font-family: "Montserrat-900";
+  font-weight: 900;
 }
-.music-toybox-vr-text144 {
-  font-style: normal;
+.music-toybox-vr-text14 {
+  font-weight: 900;
 }
-.music-toybox-vr-text145 {
+.music-toybox-vr-text15 {
+  color: #f2f2f2;
   font-style: normal;
+  font-family: "Montserrat-900";
+  font-weight: 900;
 }
-.music-toybox-vr-text146 {
-  font-style: normal;
+.music-toybox-vr-text17 {
+  font-weight: 900;
 }
-.music-toybox-vr-text147 {
-  font-style: normal;
+.music-toybox-vr-text18 {
+  font-weight: 900;
 }
-.music-toybox-vr-text148 {
+.music-toybox-vr-text19 {
+  color: #f2f2f2;
   font-style: normal;
+  font-family: "Montserrat-900";
+  font-weight: 900;
 }
-.music-toybox-vr-text149 {
-  font-style: normal;
+.music-toybox-vr-text21 {
+  font-weight: 900;
 }
-.music-toybox-vr-text150 {
-  font-style: normal;
+.music-toybox-vr-text22 {
+  font-weight: 900;
 }
-.music-toybox-vr-text151 {
+.music-toybox-vr-text23 {
+  color: #f2f2f2;
   font-style: normal;
+  font-family: "Montserrat-900";
+  font-weight: 900;
 }
-.music-toybox-vr-text152 {
-  font-style: normal;
+.music-toybox-vr-text25 {
+  font-weight: 900;
 }
-.music-toybox-vr-text153 {
-  font-style: normal;
+.music-toybox-vr-video1 {
+  width: 100%;
+  height: auto;
+  border-radius: 36px;
 }
-.music-toybox-vr-text154 {
-  font-style: normal;
+.music-toybox-vr-text26 {
+  color: rgb(190, 190, 190);
+  width: 100%;
+  font-size: 18px;
+  align-self: flex-start;
+  font-family: "Montserrat-600";
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: 128px;
 }
-.music-toybox-vr-text155 {
-  font-style: normal;
+.music-toybox-vr-text27 {
+  color: #f2f2f2;
+  font-family: "Montserrat-900";
+  font-weight: 900;
 }
-.music-toybox-vr-text156 {
+.music-toybox-vr-text28 {
   font-style: normal;
 }
-.music-toybox-vr-text157 {
+.music-toybox-vr-text29 {
   font-style: normal;
 }
-.music-toybox-vr-text158 {
-  font-style: normal;
+.music-toybox-vr-text30 {
+  color: #bebebe;
+  font-family: "Montserrat";
+  font-weight: 600;
 }
-@media(max-width: 991px) {
-  .music-toybox-vr-container2 {
-    flex: 1;
-    height: auto;
-    align-self: center;
-  }
-}
-@media(max-width: 767px) {
-  .music-toybox-vr-container2 {
-    width: 100%;
-  }
-  .music-toybox-vr-text001 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text003 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text005 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text007 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text008 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text010 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text012 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text013 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text015 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text017 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text019 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text020 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text022 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text023 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text025 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text027 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text028 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text030 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text032 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text033 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text035 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text037 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text039 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text041 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text042 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text044 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text045 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text047 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text049 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text050 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text052 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text054 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text055 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text057 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text059 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text060 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text062 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text064 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text065 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text067 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text069 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text070 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text072 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text074 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text076 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text078 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text080 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text081 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text083 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text085 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text086 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text088 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text089 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text091 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text093 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text094 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text096 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text098 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text099 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text101 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text103 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text104 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text106 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text108 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text110 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text111 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text113 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text115 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text116 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text118 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text120 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text121 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text123 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text125 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text126 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text128 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text130 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text131 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text133 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text135 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text136 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text138 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text140 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text141 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text143 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text145 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text146 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text148 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text150 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text151 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text153 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text155 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text156 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-  .music-toybox-vr-text158 {
-    margin-left: var(--dl-space-space-fourunits);
-    margin-right: var(--dl-space-space-fourunits);
-  }
-}
-@media(max-width: 479px) {
-  .music-toybox-vr-container2 {
-    width: 100%;
-    height: auto;
-  }
-  .music-toybox-vr-text {
-    color: rgb(190, 190, 190);
-    font-size: 20px;
-    font-style: normal;
-    text-align: left;
-    font-family: Montserrat;
-    font-weight: 700;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .music-toybox-vr-text001 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text002 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text003 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text004 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text005 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text006 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text007 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text008 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text009 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text010 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text011 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text012 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text013 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text014 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text015 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text016 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text017 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text018 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text019 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text020 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text021 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text022 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text023 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text024 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text025 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text026 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text027 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text028 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text029 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text030 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text031 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text032 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text033 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text034 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text035 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text036 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text037 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text038 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text039 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text040 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text041 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text042 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text043 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text044 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text045 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text046 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text047 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text048 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text049 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text050 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text051 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text052 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text053 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text054 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text055 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text056 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text057 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text058 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text059 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text060 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text061 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text062 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text063 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text064 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text065 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text066 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text067 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text068 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text069 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text070 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text071 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text072 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text073 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text074 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text075 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text076 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text077 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text078 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text079 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text080 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text081 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text082 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text083 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text084 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text085 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text086 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text087 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text088 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text089 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text090 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text091 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text092 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text093 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text094 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text095 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text096 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text097 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text098 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text099 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text100 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text101 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text102 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text103 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text104 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text105 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text106 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text107 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text108 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text109 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text110 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text111 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text112 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text113 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text114 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text115 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text116 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text117 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text118 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text119 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text120 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text121 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text122 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text123 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text124 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text125 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text126 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text127 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text128 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text129 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text130 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text131 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text132 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text133 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text134 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text135 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text136 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text137 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text138 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text139 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text140 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text141 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text142 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text143 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text144 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text145 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text146 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text147 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text148 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text149 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text150 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text151 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text152 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text153 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text154 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text155 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text156 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
-  .music-toybox-vr-text157 {
-    color: #bebebe;
-    font-size: 20px;
-  }
-  .music-toybox-vr-text158 {
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-  }
+.music-toybox-vr-text31 {
+  font-style: normal;
+}
+.music-toybox-vr-text32 {
+  font-style: normal;
+}
+.music-toybox-vr-video2 {
+  width: 100%;
+  height: auto;
+  border-radius: 36px;
+}
+.music-toybox-vr-text41 {
+  color: rgb(190, 190, 190);
+  width: 100%;
+  font-size: 18px;
+  align-self: flex-start;
+  font-family: "Montserrat-600";
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: 128px;
+}
+.music-toybox-vr-text42 {
+  color: #f2f2f2;
+  font-style: normal;
+  font-family: "Montserrat-900";
+  font-weight: 900;
+}
+.music-toybox-vr-video3 {
+  width: 100%;
+  height: auto;
+  border-radius: 36px;
+}
+.music-toybox-vr-text55 {
+  color: rgb(190, 190, 190);
+  width: 100%;
+  font-size: 18px;
+  align-self: flex-start;
+  font-family: "Montserrat-600";
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: 128px;
+}
+.music-toybox-vr-text56 {
+  color: #f2f2f2;
+  font-style: normal;
+  font-family: "Montserrat-900";
+  font-weight: 900;
+}
+.music-toybox-vr-video4 {
+  width: 100%;
+  height: auto;
+  border-radius: 36px;
+}
+.music-toybox-vr-text63 {
+  color: rgb(190, 190, 190);
+  width: 100%;
+  font-size: 18px;
+  align-self: flex-start;
+  font-family: "Montserrat-600";
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: 128px;
+}
+.music-toybox-vr-text64 {
+  color: #f2f2f2;
+  font-style: normal;
+  font-family: "Montserrat-900";
+  font-weight: 900;
+}
+.music-toybox-vr-text69 {
+  color: #f2f2f2;
+  font-style: normal;
+  font-family: "Montserrat-900";
+  font-weight: 900;
+}
+.music-toybox-vr-text72 {
+  color: #f2f2f2;
+  font-style: normal;
+  font-family: "Montserrat-900";
+  font-weight: 900;
+}
+.music-toybox-vr-text75 {
+  color: #f2f2f2;
+  font-style: normal;
+  font-family: "Montserrat-900";
+  font-weight: 900;
 }
