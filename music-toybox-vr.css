@@ -139,9 +139,16 @@
     margin-bottom: 8px;
   }
   .header-nav {
-    align-self: flex-start;
-    padding-left: var(--dl-space-space-oneandhalfunits);
-    justify-content: center;
+    gap: var(--dl-space-space-unit);
+    width: 100%;
+    align-self: center;
+    justify-content: flex-start;
+  }
+  .header-navlink3 {
+    margin-left: 0px;
+  }
+  .header-link {
+    margin-left: 0px;
   }
 }
 
@@ -163,7 +170,7 @@
   width: 26px;
   height: 26px;
   margin: var(--dl-space-space-oneandhalfunits);
-  transition: 0.2s;
+  transition: 0.3s;
   text-decoration: none;
 }
 .footer-icon:hover {
@@ -413,4 +420,16 @@
   font-style: normal;
   font-family: "Montserrat-900";
   font-weight: 900;
+}
+@media(max-width: 767px) {
+  .music-toybox-vr-container1 {
+    padding-left: var(--dl-space-space-sixunits);
+    padding-right: var(--dl-space-space-sixunits);
+  }
+}
+@media(max-width: 479px) {
+  .music-toybox-vr-container1 {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
 }

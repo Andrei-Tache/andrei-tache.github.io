@@ -139,9 +139,16 @@
     margin-bottom: 8px;
   }
   .header-nav {
-    align-self: flex-start;
-    padding-left: var(--dl-space-space-oneandhalfunits);
-    justify-content: center;
+    gap: var(--dl-space-space-unit);
+    width: 100%;
+    align-self: center;
+    justify-content: flex-start;
+  }
+  .header-navlink3 {
+    margin-left: 0px;
+  }
+  .header-link {
+    margin-left: 0px;
   }
 }
 
@@ -166,122 +173,119 @@
   justify-content: center;
 }
 .about-me-image {
-  width: 240px;
-  height: 240px;
+  width: auto;
+  height: 260px;
   align-self: flex-start;
   object-fit: cover;
   margin-left: var(--dl-space-space-oneandhalfunits);
   border-radius: 16px;
 }
 .about-me-text {
-  color: rgb(226, 226, 226);
+  color: rgb(190, 190, 190);
   width: 100%;
   align-self: center;
   text-align: justify;
-  font-family: "Montserrat-500";
+  font-family: "Montserrat-600";
   font-weight: 500;
   padding-left: var(--dl-space-space-oneandhalfunits);
-  padding-right: var(--dl-space-space-oneandhalfunits);
 }
 .about-me-text01 {
   font-style: normal;
-  font-family: "Montserrat-600";
-}
-.about-me-text02 {
-  font-family: "Montserrat-600";
-}
-.about-me-text03 {
-  font-family: "Montserrat-600";
-}
-.about-me-text04 {
-  font-family: "Montserrat-600";
-}
-.about-me-text05 {
-  color: #ffffff;
-  font-style: normal;
-  font-family: "Montserrat-900";
-  font-weight: 700;
-}
-.about-me-text06 {
-  font-family: "Montserrat-600";
-}
-.about-me-text07 {
-  color: #ffffff;
-  font-style: normal;
-  font-family: "Montserrat-900";
-  font-weight: 700;
-}
-.about-me-text08 {
-  color: #bebebe;
-  font-style: normal;
-  font-family: "Montserrat-600";
-  font-weight: 700;
 }
 .about-me-text09 {
-  font-family: "Montserrat-600";
-}
-.about-me-text10 {
   font-style: normal;
-  font-family: "Montserrat-600";
-}
-.about-me-text11 {
-  font-style: normal;
-  font-family: "Montserrat-600";
-}
-.about-me-text12 {
-  font-style: normal;
-  font-family: "Montserrat-600";
-}
-.about-me-text13 {
-  font-style: normal;
-  font-family: "Montserrat-600";
 }
 .about-me-text14 {
   font-style: normal;
-  font-family: "Montserrat-600";
-}
-.about-me-text15 {
-  font-family: "Montserrat-600";
-}
-.about-me-text16 {
-  font-style: normal;
-  font-family: "Montserrat";
-}
-.about-me-text17 {
-  font-style: normal;
 }
 @media(max-width: 991px) {
-  .about-me-text {
-    padding-right: var(--dl-space-space-oneandhalfunits);
+  .about-me-image {
+    height: 260px;
   }
 }
 @media(max-width: 767px) {
   .about-me-container1 {
-    flex-direction: column;
-    padding-bottom: 224px;
+    flex-direction: row;
   }
   .about-me-image {
-    align-self: center;
-    margin-left: 0px;
+    width: auto;
+    height: 260px;
+    margin-left: var(--dl-space-space-oneandhalfunits);
   }
   .about-me-text {
+    color: rgb(190, 190, 190);
     height: auto;
-    font-size: 18px;
-    max-width: 390px;
-    align-self: center;
     text-align: justify;
-    margin-left: 0px;
-    padding-top: var(--dl-space-space-twounits);
+    font-family: Montserrat-500;
+    font-weight: 500;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .about-me-text01 {
+    font-style: normal;
+    font-family: Montserrat-600;
+  }
+  .about-me-text02 {
+    font-family: Montserrat-600;
+  }
+  .about-me-text03 {
+    font-family: Montserrat-600;
+  }
+  .about-me-text04 {
+    font-family: Montserrat-600;
+  }
+  .about-me-text05 {
+    font-family: Montserrat-600;
+  }
+  .about-me-text06 {
+    font-family: Montserrat-600;
+  }
+  .about-me-text07 {
+    font-style: normal;
+    font-family: Montserrat-600;
+  }
+  .about-me-text08 {
+    font-style: normal;
+    font-family: Montserrat-600;
+  }
+  .about-me-text09 {
+    font-style: normal;
+    font-family: Montserrat-600;
+  }
+  .about-me-text10 {
+    font-style: normal;
+    font-family: Montserrat-600;
+  }
+  .about-me-text11 {
+    font-style: normal;
+    font-family: Montserrat-600;
+  }
+  .about-me-text12 {
+    font-family: Montserrat-600;
+  }
+  .about-me-text13 {
+    font-style: normal;
+    font-family: Montserrat;
+  }
+  .about-me-text14 {
+    font-style: normal;
   }
 }
 @media(max-width: 479px) {
   .about-me-container1 {
     flex-direction: column;
+    padding-bottom: 224px;
   }
   .about-me-image {
+    width: 200px;
+    height: 230px;
+    align-self: center;
     margin-left: 0px;
   }
   .about-me-text {
     font-size: 18px;
+    padding-top: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
   }
 }

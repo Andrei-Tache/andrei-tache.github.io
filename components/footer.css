@@ -16,7 +16,7 @@
   width: 26px;
   height: 26px;
   margin: var(--dl-space-space-oneandhalfunits);
-  transition: 0.2s;
+  transition: 0.3s;
   text-decoration: none;
 }
 .footer-icon:hover {
