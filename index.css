@@ -160,11 +160,13 @@
   margin-top: var(--dl-space-space-unit);
   transition: 0.3s;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 32px;
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .toybox-link-gallery-card:hover {
   transform: scale(1.025);
@@ -177,7 +179,7 @@
   width: 100%;
   height: auto;
   align-self: center;
-  border-radius: 20px;
+  border-radius: 32px;
 }
 .toybox-link-text {
   color: #ffffff;
@@ -213,11 +215,13 @@
   margin-top: var(--dl-space-space-unit);
   transition: 0.3s;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 32px;
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .rivaria-link-gallery-card:hover {
   transform: scale(1.025);
@@ -230,7 +234,7 @@
   width: 100%;
   height: auto;
   align-self: center;
-  border-radius: 20px;
+  border-radius: 32px;
 }
 .rivaria-link-text {
   color: #ffffff;
@@ -264,11 +268,15 @@
   margin-top: var(--dl-space-space-unit);
   transition: 0.3s;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 32px;
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0);
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .red-link-gallery-card:hover {
   transform: scale(1.025);
@@ -281,7 +289,7 @@
   width: 100%;
   height: auto;
   align-self: center;
-  border-radius: 20px;
+  border-radius: 32px;
 }
 .red-link-text {
   color: #ffffff;
