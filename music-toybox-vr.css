@@ -142,6 +142,7 @@
     gap: var(--dl-space-space-unit);
     width: 100%;
     align-self: center;
+    margin-left: var(--dl-space-space-twounits);
     justify-content: flex-start;
   }
   .header-navlink3 {
@@ -221,78 +222,19 @@
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: 128px;
 }
-.music-toybox-vr-text01 {
-  color: #f2f2f2;
-  font-style: normal;
-  font-family: "Montserrat-900";
+.music-toybox-vr-text002 {
   font-weight: 900;
 }
-.music-toybox-vr-text02 {
+.music-toybox-vr-text003 {
   font-weight: 900;
 }
-.music-toybox-vr-text04 {
+.music-toybox-vr-text005 {
   font-weight: 900;
 }
-.music-toybox-vr-text05 {
+.music-toybox-vr-text006 {
   font-weight: 900;
 }
-.music-toybox-vr-text07 {
-  font-weight: 900;
-}
-.music-toybox-vr-text08 {
-  font-weight: 900;
-}
-.music-toybox-vr-text10 {
-  color: #bebebe;
-  font-family: "Montserrat";
-  font-weight: 600;
-}
-.music-toybox-vr-text11 {
-  font-weight: 900;
-}
-.music-toybox-vr-text12 {
-  font-weight: 900;
-}
-.music-toybox-vr-text13 {
-  color: #f2f2f2;
-  font-style: normal;
-  font-family: "Montserrat-900";
-  font-weight: 900;
-}
-.music-toybox-vr-text14 {
-  font-weight: 900;
-}
-.music-toybox-vr-text15 {
-  color: #f2f2f2;
-  font-style: normal;
-  font-family: "Montserrat-900";
-  font-weight: 900;
-}
-.music-toybox-vr-text17 {
-  font-weight: 900;
-}
-.music-toybox-vr-text18 {
-  font-weight: 900;
-}
-.music-toybox-vr-text19 {
-  color: #f2f2f2;
-  font-style: normal;
-  font-family: "Montserrat-900";
-  font-weight: 900;
-}
-.music-toybox-vr-text21 {
-  font-weight: 900;
-}
-.music-toybox-vr-text22 {
-  font-weight: 900;
-}
-.music-toybox-vr-text23 {
-  color: #f2f2f2;
-  font-style: normal;
-  font-family: "Montserrat-900";
-  font-weight: 900;
-}
-.music-toybox-vr-text25 {
+.music-toybox-vr-text008 {
   font-weight: 900;
 }
 .music-toybox-vr-video1 {
@@ -300,7 +242,7 @@
   height: auto;
   border-radius: 36px;
 }
-.music-toybox-vr-text26 {
+.music-toybox-vr-text009 {
   color: rgb(190, 190, 190);
   width: 100%;
   font-size: 18px;
@@ -312,34 +254,24 @@
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: 128px;
 }
-.music-toybox-vr-text27 {
-  color: #f2f2f2;
-  font-family: "Montserrat-900";
+.music-toybox-vr-text013 {
+  color: #ffffff;
+}
+.music-toybox-vr-text017 {
+  color: #ffffff;
+}
+.music-toybox-vr-text021 {
+  color: #ffffff;
+}
+.music-toybox-vr-text023 {
   font-weight: 900;
-}
-.music-toybox-vr-text28 {
-  font-style: normal;
-}
-.music-toybox-vr-text29 {
-  font-style: normal;
-}
-.music-toybox-vr-text30 {
-  color: #bebebe;
-  font-family: "Montserrat";
-  font-weight: 600;
-}
-.music-toybox-vr-text31 {
-  font-style: normal;
-}
-.music-toybox-vr-text32 {
-  font-style: normal;
 }
 .music-toybox-vr-video2 {
   width: 100%;
   height: auto;
   border-radius: 36px;
 }
-.music-toybox-vr-text41 {
+.music-toybox-vr-text024 {
   color: rgb(190, 190, 190);
   width: 100%;
   font-size: 18px;
@@ -351,18 +283,34 @@
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: 128px;
 }
-.music-toybox-vr-text42 {
+.music-toybox-vr-text025 {
   color: #f2f2f2;
-  font-style: normal;
   font-family: "Montserrat-900";
   font-weight: 900;
+}
+.music-toybox-vr-text026 {
+  font-style: normal;
+}
+.music-toybox-vr-text027 {
+  font-style: normal;
+}
+.music-toybox-vr-text028 {
+  color: #bebebe;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.music-toybox-vr-text029 {
+  font-style: normal;
+}
+.music-toybox-vr-text030 {
+  font-style: normal;
 }
 .music-toybox-vr-video3 {
   width: 100%;
   height: auto;
   border-radius: 36px;
 }
-.music-toybox-vr-text55 {
+.music-toybox-vr-text039 {
   color: rgb(190, 190, 190);
   width: 100%;
   font-size: 18px;
@@ -373,19 +321,13 @@
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: 128px;
-}
-.music-toybox-vr-text56 {
-  color: #f2f2f2;
-  font-style: normal;
-  font-family: "Montserrat-900";
-  font-weight: 900;
 }
 .music-toybox-vr-video4 {
   width: 100%;
   height: auto;
   border-radius: 36px;
 }
-.music-toybox-vr-text63 {
+.music-toybox-vr-text050 {
   color: rgb(190, 190, 190);
   width: 100%;
   font-size: 18px;
@@ -397,29 +339,79 @@
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: 128px;
 }
-.music-toybox-vr-text64 {
+.music-toybox-vr-text051 {
   color: #f2f2f2;
   font-style: normal;
   font-family: "Montserrat-900";
   font-weight: 900;
 }
-.music-toybox-vr-text69 {
+.music-toybox-vr-text056 {
   color: #f2f2f2;
   font-style: normal;
   font-family: "Montserrat-900";
   font-weight: 900;
 }
-.music-toybox-vr-text72 {
+.music-toybox-vr-text059 {
   color: #f2f2f2;
   font-style: normal;
   font-family: "Montserrat-900";
   font-weight: 900;
 }
-.music-toybox-vr-text75 {
+.music-toybox-vr-text062 {
   color: #f2f2f2;
   font-style: normal;
   font-family: "Montserrat-900";
   font-weight: 900;
+}
+.music-toybox-vr-video5 {
+  width: 100%;
+  height: auto;
+  border-radius: 36px;
+}
+.music-toybox-vr-text071 {
+  color: rgb(190, 190, 190);
+  width: 100%;
+  font-size: 18px;
+  align-self: flex-start;
+  font-family: "Montserrat-600";
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: 128px;
+}
+.music-toybox-vr-video6 {
+  width: 100%;
+  height: auto;
+  border-radius: 36px;
+}
+.music-toybox-vr-text081 {
+  color: rgb(190, 190, 190);
+  width: 100%;
+  font-size: 18px;
+  align-self: flex-start;
+  font-family: "Montserrat-600";
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: 128px;
+}
+.music-toybox-vr-video7 {
+  width: 100%;
+  height: auto;
+  border-radius: 36px;
+}
+.music-toybox-vr-text094 {
+  color: rgb(190, 190, 190);
+  width: 100%;
+  font-size: 18px;
+  font-family: "Montserrat-600";
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: 128px;
 }
 @media(max-width: 767px) {
   .music-toybox-vr-container1 {
