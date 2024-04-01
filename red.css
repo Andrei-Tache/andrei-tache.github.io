@@ -294,6 +294,22 @@
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
 }
+.red-video3 {
+  width: 100%;
+  height: auto;
+  border-radius: 36px;
+}
+.red-text35 {
+  color: rgb(190, 190, 190);
+  width: 100%;
+  font-size: 18px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: "Montserrat-600";
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+}
 .red-link1 {
   text-decoration: underline;
 }
