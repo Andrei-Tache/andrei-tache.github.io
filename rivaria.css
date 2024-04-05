@@ -153,36 +153,6 @@
   }
 }
 
-.footer-footer {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  position: relative;
-  align-items: center;
-  margin-bottom: 40px;
-  justify-content: center;
-}
-.footer-link {
-  display: contents;
-}
-.footer-icon {
-  fill: #4e4e4e;
-  width: 26px;
-  height: 26px;
-  margin: var(--dl-space-space-oneandhalfunits);
-  transition: 0.3s;
-  text-decoration: none;
-}
-.footer-icon:hover {
-  fill: #ffffff;
-  width: 26px;
-  height: 26px;
-  transform: scale(1.02);
-}
-
-
-
 .rivaria-container {
   width: 100%;
   display: flex;
@@ -281,7 +251,7 @@
   height: auto;
   border-radius: 36px;
 }
-.rivaria-text32 {
+.rivaria-text30 {
   color: rgb(190, 190, 190);
   width: 100%;
   font-size: 18px;
@@ -295,6 +265,69 @@
 .rivaria-link1 {
   text-decoration: underline;
 }
+.rivaria-footer {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+.rivaria-back {
+  flex: 0 0 auto;
+  width: 100px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.rivaria-navlink {
+  color: #4e4e4e;
+  transition: 0.3s;
+  font-family: "Montserrat-700";
+  text-decoration: none;
+}
+.rivaria-navlink:hover {
+  color: #ffffff;
+}
+.rivaria-top {
+  flex: 0 0 auto;
+  width: 100px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.rivaria-link2 {
+  color: #4e4e4e;
+  transition: 0.3s;
+  font-family: "Montserrat-700";
+  text-decoration: none;
+}
+.rivaria-link2:hover {
+  color: #ffffff;
+}
+.rivaria-next {
+  flex: 0 0 auto;
+  width: 100px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.rivaria-navlink1 {
+  color: #4e4e4e;
+  transition: 0.3s;
+  font-family: "Montserrat-700";
+  text-decoration: none;
+}
+.rivaria-navlink1:hover {
+  color: #ffffff;
+}
 @media(max-width: 767px) {
   .rivaria-container1 {
     padding-left: var(--dl-space-space-sixunits);
@@ -305,5 +338,18 @@
   .rivaria-container1 {
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .rivaria-footer {
+    gap: 0;
+    align-self: center;
+  }
+  .rivaria-back {
+    width: 80px;
+  }
+  .rivaria-top {
+    width: 80px;
+  }
+  .rivaria-next {
+    width: 80px;
   }
 }

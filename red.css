@@ -153,36 +153,6 @@
   }
 }
 
-.footer-footer {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  position: relative;
-  align-items: center;
-  margin-bottom: 40px;
-  justify-content: center;
-}
-.footer-link {
-  display: contents;
-}
-.footer-icon {
-  fill: #4e4e4e;
-  width: 26px;
-  height: 26px;
-  margin: var(--dl-space-space-oneandhalfunits);
-  transition: 0.3s;
-  text-decoration: none;
-}
-.footer-icon:hover {
-  fill: #ffffff;
-  width: 26px;
-  height: 26px;
-  transform: scale(1.02);
-}
-
-
-
 .red-container {
   width: 100%;
   display: flex;
@@ -314,6 +284,69 @@
 .red-link1 {
   text-decoration: underline;
 }
+.red-footer {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+.red-back {
+  flex: 0 0 auto;
+  width: 100px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.red-navlink {
+  color: #4e4e4e;
+  transition: 0.3s;
+  font-family: "Montserrat-700";
+  text-decoration: none;
+}
+.red-navlink:hover {
+  color: #ffffff;
+}
+.red-top {
+  flex: 0 0 auto;
+  width: 100px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.red-link2 {
+  color: #4e4e4e;
+  transition: 0.3s;
+  font-family: "Montserrat-700";
+  text-decoration: none;
+}
+.red-link2:hover {
+  color: #ffffff;
+}
+.red-next {
+  flex: 0 0 auto;
+  width: 100px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.red-navlink1 {
+  color: rgb(78, 78, 78);
+  transition: 0.3s;
+  font-family: "Montserrat-700";
+  text-decoration: none;
+}
+.red-navlink1:hover {
+  color: #ffffff;
+}
 @media(max-width: 767px) {
   .red-container1 {
     padding-left: var(--dl-space-space-sixunits);
@@ -324,5 +357,18 @@
   .red-container1 {
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .red-footer {
+    gap: 0;
+    align-self: center;
+  }
+  .red-back {
+    width: 80px;
+  }
+  .red-top {
+    width: 80px;
+  }
+  .red-next {
+    width: 80px;
   }
 }
