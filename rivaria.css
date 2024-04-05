@@ -265,7 +265,7 @@
   background-size: cover;
   background-image: 94a1e5ad-d293-4607-b9f5-3a3f161e44af;
 }
-.rivaria-text26 {
+.rivaria-text23 {
   color: rgb(190, 190, 190);
   width: 100%;
   font-size: 18px;
@@ -281,7 +281,7 @@
   height: auto;
   border-radius: 36px;
 }
-.rivaria-text35 {
+.rivaria-text32 {
   color: rgb(190, 190, 190);
   width: 100%;
   font-size: 18px;
@@ -290,7 +290,7 @@
   padding-top: var(--dl-space-space-oneandhalfunits);
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
-  padding-bottom: 128px;
+  padding-bottom: var(--dl-space-space-sixunits);
 }
 .rivaria-link1 {
   text-decoration: underline;

@@ -309,6 +309,7 @@
   padding-top: var(--dl-space-space-oneandhalfunits);
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-sixunits);
 }
 .red-link1 {
   text-decoration: underline;

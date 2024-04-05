@@ -411,7 +411,7 @@
   padding-top: var(--dl-space-space-oneandhalfunits);
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
-  padding-bottom: 128px;
+  padding-bottom: var(--dl-space-space-sixunits);
 }
 @media(max-width: 767px) {
   .music-toybox-vr-container1 {
