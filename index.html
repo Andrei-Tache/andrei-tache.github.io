@@ -615,6 +615,39 @@ body {
   align-items: center;
   flex-direction: column; /* optional */
 }
+
+@media only screen and (max-width: 768px) {
+  #mlb2-29031456.ml-form-embedContainer {
+    display: flex !important;
+    justify-content: center;
+    padding: 0 15px;       /* Outer padding */
+    box-sizing: border-box;
+  }
+
+  #mlb2-29031456.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;  /* override fixed 450px */
+    box-sizing: border-box;
+    border-radius: 45px;         /* optional for smaller screens */
+  }
+
+  /* Scale inner headings, text, and form elements */
+  #mlb2-29031456.ml-form-embedContainer .ml-form-embedWrapper h4 {
+    font-size: 24px !important;
+  }
+
+  #mlb2-29031456.ml-form-embedContainer .ml-form-embedWrapper p {
+    font-size: 14px !important;
+  }
+
+  #mlb2-29031456.ml-form-embedContainer .ml-form-embedWrapper input,
+  #mlb2-29031456.ml-form-embedContainer .ml-form-embedWrapper button,
+  #mlb2-29031456.ml-form-embedContainer .ml-form-embedWrapper select,
+  #mlb2-29031456.ml-form-embedContainer .ml-form-embedWrapper textarea {
+    font-size: 14px !important;
+  }
+}
     </style>
 
     
