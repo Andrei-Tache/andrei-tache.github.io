@@ -616,7 +616,8 @@ body {
   flex-direction: column; /* optional */
 }
 
-@media only screen {
+
+@media only screen and (max-width: 450px) {
   #mlb2-29031456.ml-form-embedContainer {
     display: flex !important;
     justify-content: center;
@@ -630,22 +631,7 @@ body {
     max-width: 100% !important;  /* override fixed 450px */
     box-sizing: border-box;
     border-radius: 45px;         /* optional for smaller screens */
-  }
-
-  /* Scale inner headings, text, and form elements */
-  #mlb2-29031456.ml-form-embedContainer .ml-form-embedWrapper h4 {
-    font-size: 24px !important;
-  }
-
-  #mlb2-29031456.ml-form-embedContainer .ml-form-embedWrapper p {
-    font-size: 14px !important;
-  }
-
-  #mlb2-29031456.ml-form-embedContainer .ml-form-embedWrapper input,
-  #mlb2-29031456.ml-form-embedContainer .ml-form-embedWrapper button,
-  #mlb2-29031456.ml-form-embedContainer .ml-form-embedWrapper select,
-  #mlb2-29031456.ml-form-embedContainer .ml-form-embedWrapper textarea {
-    font-size: 14px !important;
+    aspect-ratio: 450/620;
   }
 }
     </style>
